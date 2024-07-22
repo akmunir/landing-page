@@ -119,15 +119,22 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    height:32vh;
+    height:35vh;
     justify-content: center;
     align-items: center;
 }
-.testimonial p {
+.quote {
     width:50vw;
-    border: 1px solid black;
-    font-size: 2em;
+    font-size: 2.3em;
+    font-weight: 300;
     font-style: italic;
-    color: #414c5c;
-    text-align: center;
+    color: #646e7e;
+}
+.subject {
+    margin-top:0;
+    margin-left: 30vw;
+    width: auto;
+    font-size: 1.5em;
+    font-weight:500;
+    color: #404650;
 }
