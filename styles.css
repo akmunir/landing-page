@@ -3,6 +3,11 @@ body {
     font-family: "roboto";
 }
 
+html, body {
+    overflow-x: hidden;
+    height: 100vh;
+}
+
 .header-container {
     background-color: #1F2937;
     display: flex;
@@ -58,10 +63,10 @@ body {
 
 .signup {
     margin-top:0.5rem;
-    width: 5.1rem;
-    height: 1.5rem;
+    width: 9em;
+    height: 2.7em;
     border-radius: 5px;
-    border: none;
+    border: 2px solid white;
     background-color:#3882F6;
     color: #F9FAF8;
     text-align: center;
@@ -137,4 +142,45 @@ body {
     font-size: 1.5em;
     font-weight:500;
     color: #404650;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.signup-box {
+    display: flex;
+    width: 50vw;
+    height: 60%;
+    background-color: #3882F6;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    
+}
+.signup-box p {
+    margin-left: 10%;
+    color:white;
+    font-size: 1.3em;
+
+}
+.signup-box span {
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
+.signup-box .signup {
+    margin-right: 10%;;
+}
+
+.footer {
+    display:flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height:5vh;
 }
